@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_camera_facing_switch.xml" value="0.2665" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_cancel_in_dialog.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_delete_in_dialog.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_delete_recent_project.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_edit_recent_project.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_left_eye.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_look_down.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_look_left.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_look_right.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_look_up.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_new_project.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_next_step.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_ok_done_small.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_ok_info.xml" value="0.304" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_recent_projects_list.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_right_eye.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_rotate_left.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_rotate_right.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_smile.xml" value="0.2425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/btn_eff_turn_bluetooth_off.xml" value="0.267" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/ic_switch_camera_white_48dp.xml" value="0.2535" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/list_item_background.xml" value="0.2025" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/drawable/logo_mlkit.xml" value="0.2025" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout-land/activity_find_bluetooth.xml" value="0.23412698412698413" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout-land/activity_vision_camerax_live_preview.xml" value="0.1591710758377425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout-land/activity_vision_cameraxsource_demo.xml" value="0.1591710758377425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout-land/activity_vision_live_preview.xml" value="0.1591710758377425" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout-land/app_permissions_dialog.xml" value="0.47239583333333335" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout-land/delete_dialog.xml" value="0.41081081081081083" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout-land/recent_project_list.xml" value="0.41081081081081083" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_chooser.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_edit_face_command_control.xml" value="0.33" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_find_bluetooth.xml" value="0.2765625" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_info.xml" value="0.184375" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_new_project_choose.xml" value="0.25" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_settings.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_splash.xml" value="0.33" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_start_new_project.xml" value="0.33" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_still_image.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_vision_camerax_live_preview.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_vision_cameraxsource_demo.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_vision_entry_choice.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/activity_vision_live_preview.xml" value="0.25" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/app_permissions_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/bluetooth_list_text_color.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/delete_dialog.xml" value="0.5" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/edit_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/recent_project_list.xml" value="0.33" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/settings_style.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/snack_bar_info.xml" value="0.33" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/spinner_style.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/layout/toggle_style.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/menu/camera_button_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/xml/preference_live_preview_quickstart.xml" value="0.45134383688600554" />
+        <entry key="..\:/Users/mostz/Desktop/FaceCommanderProject/FaceCommanderProject/app/src/main/res/xml/preference_still_image.xml" value="0.19479166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

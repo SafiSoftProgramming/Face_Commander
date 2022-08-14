@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_gravity="center">
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:background="@drawable/ic_delete_dialog_bg"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/lay_up"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/lay_down"
+            android:gravity="center"
+            android:layout_marginBottom="0dp"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/man_scan_alert_gif" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:text="Are you sure you want to DELETE this Project ?"
+                android:textAlignment="center"
+                android:textColor="@color/colorText"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lay_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_delete_in_dialog"
+                android:layout_width="130dp"
+                android:layout_height="37dp"
+                android:layout_marginEnd="5dp"
+                android:background="@drawable/btn_eff_delete_in_dialog"
+                android:scaleType="fitXY" />
+
+
+            <ImageButton
+                android:id="@+id/btn_cancel_in_dialog"
+                android:layout_width="130dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/btn_eff_cancel_in_dialog"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

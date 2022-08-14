@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash_bg"
+    tools:context=".SplashActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/img"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/man_scan_gif" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="-290dp"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_marginEnd="2dp"
+                android:src="@drawable/ic_arduino_splash" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/gifTextView_ic_bluetooth"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="-32dp"
+                android:layout_marginTop="-50dp"
+                android:elevation="1dp"
+                app:lottie_rawRes="@raw/ic_eye"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="2dp"
+                android:src="@drawable/ic_bluetooth" />
+
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:layout_marginTop="200dp"
+            android:src="@drawable/ic_app_name" />
+
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/safisoft_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_safisoft_logo_yallow" />
+
+
+
+</RelativeLayout>

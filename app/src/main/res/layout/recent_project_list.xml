@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/btn_recent_project_list"
+                android:layout_width="284dp"
+                android:layout_height="84dp"
+                android:scaleType="fitXY"
+                android:background="@drawable/btn_eff_recent_projects_list"/>
+
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtv_Recent_Project_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="40dp"
+                android:gravity="start"
+                android:clickable="false"
+                android:maxLength="20"
+                android:text="Recent_Project_name"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorText"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txtv_Recent_Project_Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="40dp"
+                android:gravity="start"
+                android:clickable="false"
+                android:maxLines="3"
+                android:text="Recent_Project_Description"
+                android:textAlignment="textStart"
+                android:textColor="@color/colorText"
+                android:textSize="12sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+        </FrameLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="-33dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_edit_Recent_Project"
+                android:layout_width="68dp"
+                android:layout_height="39dp"
+                android:layout_gravity="end"
+                android:background="@drawable/btn_eff_edit_recent_project"
+                android:scaleType="fitXY" />
+
+            <ImageButton
+                android:id="@+id/btn_delete_Recent_Project"
+                android:layout_width="92dp"
+                android:layout_height="39dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_eff_delete_recent_project"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="420dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:background="@drawable/ic_edit_dialog_bg"
+        android:orientation="vertical">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/man_scan_alert_gif" />
+
+        <TextView
+            android:id="@+id/app_per"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="App Permissions"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/app_per"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="center"
+                android:text="Bluetooth"
+                android:textColor="@color/colorText"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:text="This app uses Bluetooth permissions to connect to the Arduino Bluetooth module."
+                android:textColor="@color/colorText"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="Camera"
+                android:textColor="@color/colorText"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:gravity="start"
+                android:text="This app uses Camera permissions to track your facial expressions and send them to the Arduino Bluetooth module."
+                android:textColor="@color/colorText"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+
+        </LinearLayout>
+
+
+        <ImageButton
+            android:id="@+id/btn_ok_info"
+            android:layout_width="273dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_eff_ok_info"
+            android:scaleType="fitXY" />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

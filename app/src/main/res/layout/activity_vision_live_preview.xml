@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+  <safisoft.facecommander.CameraSourcePreview
+      android:id="@+id/preview_view"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <safisoft.facecommander.GraphicOverlay
+      android:id="@+id/graphic_overlay"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_constraintLeft_toLeftOf="@id/preview_view"
+      app:layout_constraintRight_toRightOf="@id/preview_view"
+      app:layout_constraintTop_toTopOf="@id/preview_view" />
+
+  <include
+      android:id="@+id/settings_button"
+      layout="@layout/settings_style"
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:visibility="gone"
+      app:layout_constraintRight_toRightOf="@id/preview_view"
+      app:layout_constraintTop_toTopOf="@id/preview_view" />
+
+
+  <LinearLayout
+      android:id="@+id/lay_up"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_marginTop="5dp"
+      android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/safisoft_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginStart="10dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/ic_face_command_logo_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+      <ImageButton
+          android:id="@+id/btn_turn_off"
+          android:layout_width="45dp"
+          android:layout_height="49dp"
+          android:scaleType="fitXY"
+          android:background="@drawable/btn_eff_turn_bluetooth_off"/>
+
+
+      <LinearLayout
+          android:layout_width="200dp"
+          android:layout_height="49dp"
+          android:orientation="vertical"
+          android:background="@drawable/ic_lay_bluetooth_info">
+
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Connected"
+          android:textStyle="normal"
+          android:textColor="@color/colorEff "
+          android:textSize="10dp"
+          android:layout_marginStart="5dp"/>
+
+      <TextView
+          android:id="@+id/txtv_bluetooth_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="98:D3:31:F9:78:0B"
+          android:textColor="@color/colorEff"
+          android:textStyle="normal"
+          android:textSize="10dp"
+          android:maxLength="17"
+          android:layout_marginStart="5dp"/>
+
+      <TextView
+          android:id="@+id/txtv_bluetooth_mac"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="98:D3:31:F9:78:0B"
+          android:textColor="@color/colorEff"
+          android:textStyle="normal"
+          android:textSize="10dp"
+          android:maxLength="17"
+          android:layout_marginStart="5dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+  </LinearLayout>
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:id="@+id/lay_down"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/adView"
+      android:layout_marginBottom="10dp"
+      android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/ic_txtv_command_history"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:text="Project Name:"
+          android:textStyle="bold"
+          android:textColor="@color/colorEff"
+          android:textSize="12sp" />
+
+      <TextView
+          android:id="@+id/txtv_project_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:maxLength="50"
+          android:textColor="@color/colorEff"
+          android:textSize="12sp" />
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:text="Project Description:"
+          android:textStyle="bold"
+          android:textColor="@color/colorEff"
+          android:textSize="12sp" />
+
+      <TextView
+          android:id="@+id/txtv_project_description"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="10dp"
+          android:layout_marginBottom="4dp"
+          android:maxLength="35"
+          android:maxLines="1"
+          android:textColor="@color/colorEff"
+          android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@id/control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-40dp"
+        android:orientation="horizontal">
+
+      <ToggleButton
+          android:id="@+id/facing_switch"
+          android:layout_width="83dp"
+          android:layout_height="80dp"
+          android:background="@drawable/btn_eff_camera_facing_switch"
+          android:checked="false"
+          android:textOff=""
+          android:textOn="" />
+
+      <Spinner
+          android:id="@+id/spinner"
+          android:layout_width="0dp"
+          android:layout_height="0dp"
+          android:layout_gravity="center"
+          android:visibility="invisible" />
+
+    </LinearLayout>
+  </LinearLayout>
+
+
+  <com.google.android.gms.ads.AdView
+      xmlns:ads="http://schemas.android.com/apk/res-auto"
+      android:id="@+id/adView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_alignParentBottom="true"
+      ads:adSize="SMART_BANNER"
+      ads:adUnitId="ca-app-pub-5637187199850424/1459123925">
+  </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
